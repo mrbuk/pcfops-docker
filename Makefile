@@ -8,6 +8,7 @@ build:
 
 push:
 	docker push mrbuk/pcf-ops:$(version)
+	docker push mrbuk/pcf-ops:latest
 
 save:
 	mkdir -p images
