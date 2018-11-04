@@ -1,4 +1,4 @@
-FROM engineerbetter/pcf-ops
+FROM engineerbetter/pcf-ops:0.294.0
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     sshpass expect
